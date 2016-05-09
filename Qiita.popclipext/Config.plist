@@ -3,22 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>Extension Name</key>
-	<string>カーリル</string>
+	<string>Qiita</string>
 	<key>Extension Identifier</key>
-	<string>jp.telabo.popclip.extension.calil</string>
+	<string>jp.telabo.popclip.extension.qiita</string>
 	<key>Extension Description</key>
-	<string>Search for books on カーリル.</string>
+	<string>Search for topics on Qiita.</string>
 	<key>Actions</key>
 	<array>
 		<dict>
 			<key>URL</key>
-			<string>https://calil.jp/search?q={popclip text}</string>
+			<string>https://qiita.com/search?q={popclip text}</string>
 			<key>Title</key>
-			<string>カーリル</string>
+			<string>Qiita</string>
 			<key>Regular Expression</key>
 			<string>(?s)^.{1,50}$</string>
-            <key>Image File</key>
-			<string>to.png</string>
 		</dict>
 	</array>
 </dict>

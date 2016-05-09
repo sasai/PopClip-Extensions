@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>Extension Name</key>
-	<string>カーリル</string>
+	<string>リアルタイム検索</string>
 	<key>Extension Identifier</key>
-	<string>jp.telabo.popclip.extension.calil</string>
+	<string>jp.telabo.popclip.extension.yahoo-japan-realtime-search</string>
 	<key>Extension Description</key>
-	<string>Search for books on カーリル.</string>
+	<string>Search for topics on Yahooリアルタイム検索.</string>
 	<key>Actions</key>
 	<array>
 		<dict>
 			<key>URL</key>
-			<string>https://calil.jp/search?q={popclip text}</string>
+			<string>http://realtime.search.yahoo.co.jp/search?p={popclip text}</string>
 			<key>Title</key>
-			<string>カーリル</string>
+			<string>リアルタイム検索</string>
 			<key>Regular Expression</key>
 			<string>(?s)^.{1,50}$</string>
             <key>Image File</key>
-			<string>to.png</string>
+			<string>yjreal.png</string>
 		</dict>
 	</array>
 </dict>
